@@ -8,6 +8,17 @@ Placeholder attributes are valid on `input` elements of various types and
 Placeholders.js is licensed under the [MIT License][license]. See the
 unminified file for the full license text.
 
+## Install using bower
+Add dependency to your bower.json file:
+"placeholders": "https://github.com/fourmation/Placeholders.js.git#master"
+
+Run: 
+bower update
+
+Include files: (MAKE SURE YOU DO THIS IN THE RIGHT ORDER)
+1. Placeholders.min.js
+2. placeholders.jquery.js (adapter to fix the jquery val function)
+
 ## Get it!
 
 Download the polyfill and get a whole load of information and instructions at
